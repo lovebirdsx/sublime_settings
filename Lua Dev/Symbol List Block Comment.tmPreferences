@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+   <key>name</key>
+   <string>Symbol List: Block Comment</string>
+
+   <!-- 显示符号的内容,参照 lua.sublime-syntax中的定义 -->
+   <key>scope</key>
+   <string>source.lua comment.block.lua</string>
+
+   <key>settings</key>
+   <dict>
+      <!-- 是否显示在文件的符号列表(0/1) -->
+      <key>showInSymbolList</key>      
+      <integer>1</integer>
+
+      <key>symbolTransformation</key>
+      <string>      
+      s/--\[\[\s*(\w+)\s*\]\]/$1/g
+      <!-- "s/" 和 "/g" 表示匹配开始和结束 -->
+      <!-- --\[\[\s*(\w+)\s*\]\] 正则表达式 -->
+      <!-- /$1 取第一个匹配的用于显示  -->
+      </string>
+
+   </dict>
+</dict>
+</plist>
