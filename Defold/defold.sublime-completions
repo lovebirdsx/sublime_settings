@@ -1,0 +1,598 @@
+{
+"scope": "source.lua",
+"completions":[
+{
+	"trigger":"final",
+	"contents":"function final(self) end"
+},
+{
+	"trigger":"go.animate",
+	"contents":"go.animate(${1:url}, ${2:property}, ${3:playback}, ${4:to}, ${5:easing}, ${6:duration}, ${7:delay}, ${8:complete_function})"
+},
+{
+	"trigger":"go.cancel_animations",
+	"contents":"go.cancel_animations(${1:url}, ${2:property})"
+},
+{
+	"trigger":"go.delete",
+	"contents":"go.delete(${1:url})"
+},
+{
+	"trigger":"go.delete_all",
+	"contents":"go.delete_all(${1:ids})"
+},
+{
+	"trigger":"go.get",
+	"contents":"go.get(${1:url}, ${2:id})"
+},
+{
+	"trigger":"go.get_id",
+	"contents":"go.get_id(${1:path})"
+},
+{
+	"trigger":"go.get_position",
+	"contents":"go.get_position(${1:id})"
+},
+{
+	"trigger":"go.get_rotation",
+	"contents":"go.get_rotation(${1:id})"
+},
+{
+	"trigger":"go.get_scale",
+	"contents":"go.get_scale(${1:id})"
+},
+{
+	"trigger":"go.get_scale_vector",
+	"contents":"go.get_scale_vector(${1:id})"
+},
+{
+	"trigger":"go.get_world_position",
+	"contents":"go.get_world_position(${1:id})"
+},
+{
+	"trigger":"go.get_world_rotation",
+	"contents":"go.get_world_rotation(${1:id})"
+},
+{
+	"trigger":"go.get_world_scale",
+	"contents":"go.get_world_scale(${1:id})"
+},
+{
+	"trigger":"go.property",
+	"contents":"go.property(${1:name}, ${2:value})"
+},
+{
+	"trigger":"go.set",
+	"contents":"go.set(${1:url}, ${2:name}, ${3:value})"
+},
+{
+	"trigger":"go.set_position",
+	"contents":"go.set_position(${1:pos}, ${2:id})"
+},
+{
+	"trigger":"go.set_rotation",
+	"contents":"go.set_rotation(${1:rotation}, ${2:id})"
+},
+{
+	"trigger":"go.set_scale",
+	"contents":"go.set_scale(${1:scale}, ${2:id})"
+},
+{
+	"trigger":"init",
+	"contents":"function init(self) end"
+},
+{
+	"trigger":"on_input",
+	"contents":"function on_input(self, action_id, action) end"
+},
+{
+	"trigger":"on_message",
+	"contents":"function on_message(self, message_id, message, sender) end"
+},
+{
+	"trigger":"on_reload",
+	"contents":"function on_reload(self) end"
+},
+{
+	"trigger":"update",
+	"contents":"function update(self, dt) end"
+},
+{
+	"trigger":"acquire_input_focus",
+	"contents":"msg.post('.', 'acquire_input_focus')"
+},
+{
+	"trigger":"release_input_focus",
+	"contents":"msg.post('.', 'release_input_focus')"
+},
+{
+	"trigger":"go.enable",
+	"contents":"msg.post('${1:.}', 'enable')"
+},
+{
+	"trigger":"go.disable",
+	"contents":"msg.post('${1:.}', 'disable')"
+},
+{
+	"trigger":"go.PLAYBACK_ONCE_FORWARD",
+	"contents":"go.PLAYBACK_ONCE_FORWARD"
+},
+{
+	"trigger":"go.PLAYBACK_ONCE_BACKWARD",
+	"contents":"go.PLAYBACK_ONCE_BACKWARD"
+},
+{
+	"trigger":"go.PLAYBACK_ONCE_PINGPONG",
+	"contents":"go.PLAYBACK_ONCE_PINGPONG"
+},
+{
+	"trigger":"go.PLAYBACK_LOOP_FORWARD",
+	"contents":"go.PLAYBACK_LOOP_FORWARD"
+},
+{
+	"trigger":"go.PLAYBACK_LOOP_BACKWARD",
+	"contents":"go.PLAYBACK_LOOP_BACKWARD"
+},
+{
+	"trigger":"go.PLAYBACK_LOOP_PINGPONG",
+	"contents":"go.PLAYBACK_LOOP_PINGPONG"
+},
+{
+	"trigger":"gui.animate",
+	"contents":"gui.animate(${1:node}, ${2:property})"
+},
+{
+	"trigger":"gui.cancel_animation",
+	"contents":"gui.cancel_animation(${1:node}, ${2:property})"
+},
+{
+	"trigger":"gui.cancel_flipbook",
+	"contents":"gui.cancel_flipbook(${1:node})"
+},
+{
+	"trigger":"gui.clone",
+	"contents":"gui.clone(${1:node})"
+},
+{
+	"trigger":"gui.clone_tree",
+	"contents":"gui.clone_tree(${1:node})"
+},
+{
+	"trigger":"gui.delete_node",
+	"contents":"gui.delete_node(${1:node})"
+},
+{
+	"trigger":"gui.delete_texture",
+	"contents":"gui.delete_texture(${1:texture})"
+},
+{
+	"trigger":"gui.get_adjust_mode",
+	"contents":"gui.get_adjust_mode(${1:node})"
+},
+{
+	"trigger":"gui.get_blend_mode",
+	"contents":"gui.get_blend_mode(${1:node})"
+},
+{
+	"trigger":"gui.get_clipping_inverted",
+	"contents":"gui.get_clipping_inverted(${1:node})"
+},
+{
+	"trigger":"gui.get_clipping_mode",
+	"contents":"gui.get_clipping_mode(${1:node})"
+},
+{
+	"trigger":"gui.get_clipping_visible",
+	"contents":"gui.get_clipping_visible(${1:node})"
+},
+
+{
+	"trigger":"gui.get_color",
+	"contents":"gui.get_color(${1:node})"
+},
+{
+	"trigger":"gui.get_fill_angle",
+	"contents":"gui.get_fill_angle(${1:node})"
+},
+{
+	"trigger":"gui.get_flipbook",
+	"contents":"gui.get_flipbook(${1:node})"
+},
+{
+	"trigger":"gui.get_font",
+	"contents":"gui.get_font(${1:node})"
+},
+{
+	"trigger":"gui.get_height",
+	"contents":"gui.get_height()"
+},
+{
+	"trigger":"gui.get_id",
+	"contents":"gui.get_id(${1:node})"
+},
+{
+	"trigger":"gui.get_index",
+	"contents":"gui.get_index(${1:node})"
+},
+{
+	"trigger":"gui.get_inner_radius",
+	"contents":"gui.get_inner_radius(${1:node})"
+},
+{
+	"trigger":"gui.get_layer",
+	"contents":"gui.get_layer(${1:node})"
+},
+{
+	"trigger":"gui.get_layout",
+	"contents":"gui.get_layout(${1:node})"
+},
+{
+	"trigger":"gui.get_leading",
+	"contents":"gui.get_leading(${1:node})"
+},
+{
+	"trigger":"gui.get_line_break",
+	"contents":"gui.get_line_break(${1:node})"
+},
+{
+	"trigger":"gui.get_node",
+	"contents":"gui.get_node(${1:id})"
+},
+{
+	"trigger":"gui.get_outer_bounds",
+	"contents":"gui.get_outer_bounds(${1:node})"
+},
+{
+	"trigger":"gui.get_outline",
+	"contents":"gui.get_outline(${1:node})"
+},
+{
+	"trigger":"gui.get_parent",
+	"contents":"gui.get_parent(${1:node})"
+},
+{
+	"trigger":"gui.get_perimeter_vertices",
+	"contents":"gui.get_perimeter_vertices(${1:number})"
+},
+{
+	"trigger":"gui.get_pivot",
+	"contents":"gui.get_pivot(${1:node})"
+},
+{
+	"trigger":"gui.get_position",
+	"contents":"gui.get_position(${1:node})"
+},
+{
+	"trigger":"gui.get_rotation",
+	"contents":"gui.get_rotation(${1:node})"
+},
+{
+	"trigger":"gui.get_scale",
+	"contents":"gui.get_scale(${1:node})"
+},
+{
+	"trigger":"gui.get_screen_position",
+	"contents":"gui.get_screen_position(${1:node})"
+},
+{
+	"trigger":"gui.get_shadow",
+	"contents":"gui.get_shadow(${1:node})"
+},
+{
+	"trigger":"gui.get_size",
+	"contents":"gui.get_size(${1:node})"
+},
+{
+	"trigger":"gui.get_size_mode",
+	"contents":"gui.get_size_mode(${1:node})"
+},
+{
+	"trigger":"gui.get_slice9",
+	"contents":"gui.get_slice9(${1:node})"
+},
+{
+	"trigger":"gui.get_text",
+	"contents":"gui.get_text(${1:node})"
+},
+{
+	"trigger":"gui.get_text_metrics",
+	"contents":"gui.get_text_metrics(${1:font}, ${2:text}, ${3:width}, ${4:line_breaks}, ${5:leading}, ${6:tracking})"
+},
+{
+	"trigger":"gui.get_text_metrics_from_node",
+	"contents":"gui.get_text_metrics_from_node(${1:node})"
+},
+{
+	"trigger":"gui.get_texture",
+	"contents":"gui.get_texture(${1:node})"
+},
+{
+	"trigger":"gui.get_tracking",
+	"contents":"gui.get_tracking(${1:node})"
+},
+{
+	"trigger":"gui.get_width",
+	"contents":"gui.get_width(${1:node})"
+},
+{
+	"trigger":"gui.get_xanchor",
+	"contents":"gui.get_xanchor(${1:node})"
+},
+{
+	"trigger":"gui.get_yanchor",
+	"contents":"gui.get_yanchor(${1:node})"
+},
+{
+	"trigger":"gui.hide_keyboard",
+	"contents":"gui.hide_keyboard()"
+},
+{
+	"trigger":"gui.is_enabled",
+	"contents":"gui.is_enabled(${1:node})"
+},
+{
+	"trigger":"gui.move_above",
+	"contents":"gui.move_above(${1:node}, ${2:ref})"
+},
+{
+	"trigger":"gui.move_below",
+	"contents":"gui.move_below(${1:node}, ${2:ref})"
+},
+{
+	"trigger":"gui.new_box_node",
+	"contents":"gui.new_box_node(${1:pos}, ${2:size})"
+},
+{
+	"trigger":"gui.new_pie_node",
+	"contents":"gui.new_pie_node(${1:pos}, ${2:size})"
+},
+{
+	"trigger":"gui.new_text_node",
+	"contents":"gui.new_text_node(${1:pos}, ${2:text})"
+},
+{
+	"trigger":"gui.new_texture",
+	"contents":"gui.new_texture(${1:texture}, ${2:width}, ${3:height}, ${4:type}, ${5:buffer})"
+},
+{
+	"trigger":"gui.pick_node",
+	"contents":"gui.pick_node(${1:node}, ${2:x}, ${3:y})"
+},
+{
+	"trigger":"gui.play_flipbook",
+	"contents":"gui.play_flipbook(${1:node}, ${2:animation}, ${3:complete_function})"
+},
+{
+	"trigger":"gui.reset_keyboard",
+	"contents":"gui.reset_keyboard()"
+},
+{
+	"trigger":"gui.reset_nodes",
+	"contents":"gui.reset_nodes()"
+},
+{
+	"trigger":"gui.set_adjust_mode",
+	"contents":"gui.set_adjust_mode(${1:node}, ${2:mode})"
+},
+{
+	"trigger":"gui.set_blend_mode",
+	"contents":"gui.set_blend_mode(${1:node}, ${2:mode})"
+},
+{
+	"trigger":"gui.set_clipping_inverted",
+	"contents":"gui.set_clipping_inverted(${1:node}, ${2:visible})"
+},
+{
+	"trigger":"gui.set_clipping_mode",
+	"contents":"gui.set_clipping_mode(${1:node}, ${2:mode})"
+},
+{
+	"trigger":"gui.set_clipping_visible",
+	"contents":"gui.set_clipping_visible(${1:node}, ${2:visible})"
+},
+{
+	"trigger":"gui.set_color",
+	"contents":"gui.set_color(${1:node}, ${2:color})"
+},
+{
+	"trigger":"gui.set_enabled",
+	"contents":"gui.set_enabled(${1:node}, ${2:enabled})"
+},
+{
+	"trigger":"gui.set_fill_angle",
+	"contents":"gui.set_fill_angle(${1:node}, ${2:angle})"
+},
+{
+	"trigger":"gui.set_font",
+	"contents":"gui.set_font(${1:node}, ${2:font})"
+},
+{
+	"trigger":"gui.set_id",
+	"contents":"gui.set_id(${1:node}, ${2:id})"
+},
+{
+	"trigger":"gui.set_inner_radius",
+	"contents":"gui.set_inner_radius(${1:node}, ${2:radius})"
+},
+{
+	"trigger":"gui.set_layer",
+	"contents":"gui.set_layer(${1:node}, ${2:layer})"
+},
+{
+	"trigger":"gui.set_leading",
+	"contents":"gui.set_leading(${1:node}, ${2:leading})"
+},
+{
+	"trigger":"gui.set_line_break",
+	"contents":"gui.set_line_break(${1:node}, ${2:text})"
+},
+{
+	"trigger":"gui.set_outer_bounds",
+	"contents":"gui.set_outer_bounds(${1:node}, BOUNDS_RECTANGLE)"
+},
+{
+	"trigger":"gui.set_outline",
+	"contents":"gui.set_outline(${1:node}, ${2:color})"
+},
+{
+	"trigger":"gui.set_parent",
+	"contents":"gui.set_parent(${1:node}, ${2:parent})"
+},
+{
+	"trigger":"gui.set_perimeter_vertices",
+	"contents":"gui.set_perimeter_vertices(${1:vertices})"
+},
+{
+	"trigger":"gui.set_pivot",
+	"contents":"gui.set_pivot(${1:node}, ${2:pivot})"
+},
+{
+	"trigger":"gui.set_position",
+	"contents":"gui.set_position(${1:node}, ${2:pos})"
+},
+{
+	"trigger":"gui.set_render_order",
+	"contents":"gui.set_render_order(${1:order})"
+},
+{
+	"trigger":"gui.set_rotation",
+	"contents":"gui.set_rotation(${1:node}, ${2:rot})"
+},
+{
+	"trigger":"gui.set_scale",
+	"contents":"gui.set_scale(${1:node}, ${2:scale})"
+},
+{
+	"trigger":"gui.set_shadow",
+	"contents":"gui.set_shadow(${1:node}, ${2:color})"
+},
+{
+	"trigger":"gui.set_size",
+	"contents":"gui.set_size(${1:node}, ${2:size})"
+},
+{
+	"trigger":"gui.set_size_mode",
+	"contents":"gui.set_size_mode(${1:node}, ${2:mode})"
+},
+{
+	"trigger":"gui.set_slice9",
+	"contents":"gui.set_slice9(${1:node}, ${2:params})"
+},
+{
+	"trigger":"gui.set_text",
+	"contents":"gui.set_text(${1:node}, ${2:text})"
+},
+{
+	"trigger":"gui.set_texture",
+	"contents":"gui.set_texture(${1:node}, ${2:texture})"
+},
+{
+	"trigger":"gui.set_texture_data",
+	"contents":"gui.set_texture_data(${1:node}, ${2:width}, ${3:height}, ${4:type}, ${5:buffer})"
+},
+{
+	"trigger":"gui.set_tracking",
+	"contents":"gui.set_tracking(${1:node}, ${2:tracking})"
+},
+{
+	"trigger":"gui.set_xanchor",
+	"contents":"gui.set_xanchor(${1:node}, ${2:anchor})"
+},
+{
+	"trigger":"gui.set_yanchor",
+	"contents":"gui.set_yanchor(${1:node}, ${2:anchor})"
+},
+{
+	"trigger":"gui.show_keyboard",
+	"contents":"gui.show_keyboard(${1:node}, ${2:autoclose})"
+},
+{
+	"trigger":"layout_changed",
+	"contents":"layout_changed"
+},
+{
+	"trigger":"sys.get_application_info",
+	"contents":"sys.get_application_info()"
+},
+{
+	"trigger":"sys.get_config",
+	"contents":"sys.get_config(${1:key}, ${2:default_value})"
+},
+{
+	"trigger":"sys.get_connectivity",
+	"contents":"sys.get_connectivity()"
+},
+{
+	"trigger":"sys.NETWORK_DISCONNECTED",
+	"contents":"sys.NETWORK_DISCONNECTED"
+},
+{
+	"trigger":"sys.NETWORK_CONNECTED_CELLULAR",
+	"contents":"sys.NETWORK_CONNECTED_CELLULAR"
+},
+{
+	"trigger":"sys.NETWORK_CONNECTED",
+	"contents":"sys.NETWORK_CONNECTED"
+},
+{
+	"trigger":"sys.get_engine_info",
+	"contents":"sys.get_engine_info()"
+},
+{
+	"trigger":"sys.get_ifaddrs",
+	"contents":"sys.get_ifaddrs()"
+},
+{
+	"trigger":"sys.get_save_file",
+	"contents":"sys.get_save_file(${1:app_id}, ${2:filename})"
+},
+{
+	"trigger":"sys.get_sys_info",
+	"contents":"sys.get_sys_info()"
+},
+{
+	"trigger":"sys.load",
+	"contents":"sys.load()"
+},
+{
+	"trigger":"sys.load_resource",
+	"contents":"sys.load_resource(${1:filename})"
+},
+{
+	"trigger":"sys.open_url",
+	"contents":"sys.open_url(${1:url})"
+},
+{
+	"trigger":"sys.save",
+	"contents":"sys.save(${1:filename}, ${2:table})"
+},
+{
+	"trigger":"sys.set_connectivity_host",
+	"contents":"sys.set_connectivity_host(${1:host})"
+},
+{
+	"trigger":"sys.set_error_handler",
+	"contents":"sys.set_error_handler(function(source, message, traceback))"
+},
+{
+	"trigger":"set_update_frequency",
+	"contents":"msg.post('@system:', 'set_update_frequency', {frequency = 60})"
+},
+{
+	"trigger":"start_record",
+	"contents":"msg.post('@system:', 'start_record', {file_name = ${1:'test_rec.ivf'}, frame_period = ${2:1}, fps = ${3:60}})"
+},
+{
+	"trigger":"stop_record",
+	"contents":"msg.post('@system:', 'stop_record')"
+},
+{
+	"trigger":"toggle_physics_debug",
+	"contents":"msg.post('@system:', 'toggle_physics_debug')"
+},
+{
+	"trigger":"toggle_profile",
+	"contents":"msg.post('@system:', 'toggle_profile')"
+},
+]
+}
